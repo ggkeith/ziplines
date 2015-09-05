@@ -1,0 +1,150 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar > .container {
+  width: 100%;
+  position: relative;
+}
+
+.navbar-nav {
+  position: absolute;
+  right: 0;
+}
+
+@media(max-width: 1200px) {
+  .thumbnail {
+    width: 70%;
+  }
+}
+
+@media(min-width:767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+  }
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
+
+.nav-links {
+  font-family: Inconsolata;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-family: Oswald, sans-serif;
+  font-size: 25px;
+}
+
+.intro-section {
+  background: url('https://newevolutiondesigns.com/images/freebies/retro-wallpaper-50.jpg') 50% 0 fixed;
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+}
+
+#intro-title {
+  font-size: 125px;
+  font-weight: bold;
+  font-family: Oswald, sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #B23C3C;
+  letter-spacing: 2px;
+}
+
+#portfolio-title {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: Oswald, sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #d8d149;
+  letter-spacing: 2px;
+}
+
+.caption {
+  font-family: Oswald, sans-serif;
+}
+
+#contact-title {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: Oswald, sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #7CC67C;
+  letter-spacing: 2px;
+}
+
+#about-title {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: Oswald, sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #2C84CE;
+  letter-spacing: 2px;
+}
+
+.social {
+  font-family: Oswald, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: #000;
+  margin-top: 50px;
+  background-color: #3FC6C9;
+}
+
+.about-section {
+  background: url('https://newevolutiondesigns.com/images/freebies/water-art-wallpaper-7.jpg') 50% 0 fixed;
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.about-blurb {
+  font-family: Oswald, sans-serif;
+  text-align: center;
+}
+
+img {
+  border: 1px solid #021a40;
+}
+
+.well {
+  background-color: #B3D4FF;
+  position: relative;
+}
+
+.portfolio-section {
+  background: url('https://newevolutiondesigns.com/images/freebies/texture-wallpaper-55.jpg') 0 fixed;
+  background-size: cover;
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.contact-section {
+  background: url('https://newevolutiondesigns.com/images/freebies/spring-wallpaper-5.jpg') 50% 0 fixed;
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.contact-email {
+  font font-weight: bold;
+  font-family: Oswald, sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #7CC67C;
+}
