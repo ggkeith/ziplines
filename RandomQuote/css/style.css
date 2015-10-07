@@ -1,0 +1,40 @@
+body {
+  background: url('https://newevolutiondesigns.com/images/freebies/abyss-wallpaper-8.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  text-align: center;
+}
+
+div.header {
+  background: black;
+}
+
+.header h1 {
+  font-family: Shadows into Light;
+  font-size: 55px;
+  color: red;
+}
+
+.btn{
+  margin-top: 50px;
+	background: transparent;
+	color: #F2F2F2;
+
+	/* CSS Transition */
+	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
+	transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
+.btn {
+  font-family: Shadows Into Light;
+  font-size: 25px;
+  color: red;
+}
