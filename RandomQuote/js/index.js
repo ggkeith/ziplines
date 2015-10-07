@@ -51,6 +51,7 @@ $(document).ready(function() {
     var qLen = quotes.length;
     var randomnumber = Math.floor(Math.random() * qLen + 1);
     
+    
   });
 });
 //create footer with my contact information
