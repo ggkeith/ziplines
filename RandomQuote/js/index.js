@@ -48,10 +48,8 @@ $(document).ready(function() {
  
 //when button clicked, print random quote to the page
   $("#quoteButton").click(function(){
-    var quoteLength = quotes.length;
-    for (var i = 0; i < quoteLength; i++){
-      $("#quoteContainer p").append
-    }
+    var qLen = quotes.length;
+    var randomnumber = Math.floor(Math.random() * qLen + 1);
     
   });
 });
