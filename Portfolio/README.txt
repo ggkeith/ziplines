@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/comicusrex/pen/xGvVzK.
-
- 
+Portfolio page for George Keith
+@ggkeith
+george@george-keith.com
