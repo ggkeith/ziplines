@@ -5,36 +5,44 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
 body {
   text-align: center;
 }
-
 div.header {
   background: black;
 }
-
 .header h1 {
   font-family: Shadows into Light;
   font-size: 55px;
   color: red;
 }
-
-.btn{
+.btn {
   margin-top: 50px;
-	background: transparent;
-	color: #F2F2F2;
-
-	/* CSS Transition */
-	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
-	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
-	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
-	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
-	transition: background .2s ease-in-out, border .2s ease-in-out;
+  background: transparent;
+  color: #F2F2F2;
+  -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
 }
-
 .btn {
   font-family: Shadows Into Light;
   font-size: 25px;
   color: red;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+#quoteContainer {
+  margin-top: 50px;
+  color: red;
+  font-size: 20px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+blockquote {
+  font: 1.50em Shadows into Light
+}
+cite {
+  display: block;
+  margin-top: 0.5em;
+  font-size: 0.85em;
 }

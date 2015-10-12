@@ -1,5 +1,13 @@
-//create array of quotes (at least 20-30 quotes)
-$(document).ready(function() {
+(function() {
+
+  var app = angular.module("halloweenQuote", []);
+
+  app.controller("randomQuote", function() {
+    this.info = quotes[Math.floor(Math.random() * quotes.length)];
+    this.pick = function() {
+      this.info = quotes[Math.floor(Math.random() * quotes.length)];
+    };
+  });
 
   var quotes = [{
     quote: "I met him, fifteen years ago; I was told there was nothing left; no reason, no conscience, no understanding; and even the most rudimentary sense of life or death, of good or evil, right or wrong. I met this six-year-old child, with this blank, pale, emotionless face, and the blackest eyes... the devil's eyes. I spent eight years trying to reach him, and then another seven trying to keep him locked up because I realized that what was living behind that boy's eyes was purely and simply... evil.",
@@ -44,14 +52,6 @@ $(document).ready(function() {
     quote: "I- I- I watched him for fifteen years, sitting in a room, staring at a wall, not seeing the wall, looking past the wall - looking at this night, inhumanly patient, waiting for some secret, silent alarm to trigger him off. Death has come to your little town, Sheriff. Now you can either ignore it, or you can help me to stop it.",
     name: "Dr. Samuel Loomis"
   }];
-//create a random function that chooses a random quote from the array
- 
-//when button clicked, print random quote to the page
-  $("#quoteButton").click(function(){
-    var qLen = quotes.length;
-    var randomnumber = Math.floor(Math.random() * qLen + 1);
-    
-    
-  });
-});
-//create footer with my contact information
+
+
+})();
